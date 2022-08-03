@@ -1,0 +1,59 @@
+.titulo-principal {
+
+    padding-left: 20px;
+}
+
+#banner {
+
+    width: 100%;
+}
+
+/* Colocando um fundo cinza na div principal */
+.principal {
+
+    background: #cccccc;
+    margin: 10px 0px 10px 0px;
+    padding: 30px;
+}
+
+.titulo-centralizado,
+p {
+    text-align: center;
+}
+
+/* Alterando o tamanho da fonte de 16px (default) para 20px. 
+CSS Selector = Selecione o elemento onde o id = "missao"
+*/
+#missao {
+
+    font-size: 20px;
+}
+
+/* Alterando a cor do texto que tem negrito e enfânse
+CSS Selector = Selecione todos <strong> que estão dentro de <em> e dentro de um elemento com o id = "missao" */
+#missao em strong {
+    color: #ff0000;
+}
+
+.beneficios {
+
+    background: #ffffff;
+    margin: 10px;
+}
+
+.beneficios h2 {
+
+    margin: 10px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 10%;
+}
+
+.imagembeneficio {
+
+    width: 50%;
+}

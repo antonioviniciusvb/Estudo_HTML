@@ -1,0 +1,123 @@
+main{
+
+    width: 50%;
+    margin: 2% auto;
+
+}
+#formulario{
+
+    margin: 40px 0;
+}
+
+.label-default{
+
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-default{
+
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    width: 50vw;
+}
+
+fieldset {
+    margin: 0 0 10px;
+}
+
+.enviar{
+
+    width: 50vw;
+    padding: 20px 0;
+    background: #094771;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+    display: block;
+    margin: 3vw 0;
+}
+
+.enviar:hover{
+
+    background: #2cc3ce;
+    transform: scale(1.05);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #094771;
+    color: white;
+    font-weight: bold;
+}
+
+td,  th{
+    border: 1px solid #000000;
+    padding: 10px 5px;
+}
+
+tfoot td{
+    padding: 2px;
+    border: 1px solid #000000;
+    background: #094771;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .caixa{
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    ul{
+        text-align: center;
+    }
+
+    main{
+        width: 90%;
+    }
+
+    #formulario{
+        margin-top: 20px;
+    }
+
+    .input-default{
+        width: 90%;
+        padding: 10px 5px;
+        margin: 0 0 10px 0;
+        border-style: solid;
+
+    }
+
+    fieldset{
+        margin: 0 0 15px;
+    }
+
+    .enviar{
+
+        margin:10vw auto 30vw;
+    }
+
+    table{
+
+        margin-bottom: 20px;
+    }
+
+}

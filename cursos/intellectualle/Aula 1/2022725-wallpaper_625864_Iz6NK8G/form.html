@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Curso de HTML5</title>
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<script src="script.js" type="text/javascript"></script>
+		<meta content="meu primeiro site" name="description">
+		<meta charset="utf-8">
+		
+		
+	</head>
+	<body>
+		<form enctype="multipart/form-data" method="post" action="recebe.html" name="contato">
+			<fieldset>
+			  <legend>Dados pessoais</legend>
+				<p>
+					<label>Nome * </label>
+					<input name="nome" type="text">
+				</p>
+					<p>
+					<label>Email * </label>
+					<input name="email" type="text">
+				</p>
+				<p>
+					<label>Escolha uma opção:</label>
+					<span class="input">
+					<input type="radio" name="opcao" value="manha">
+					Manha <br>
+					<input type="radio" name="opcao" value="tarde">
+					Tarde <br>
+					<input type="radio" name="opcao" value="noite">
+					Noite
+						</span>
+				</p>
+				
+				<p>
+					<label> Telefone *</label>
+					<input type="text" name="tel">
+				</p>
+				<p>
+					<label>Selecione o nome do seu Estado</label>
+					<select name="estado">
+					<option value="AC">Acre</option>
+					<option value="AM">Amazonas</option>
+					<option value="MT">Mato Grosso</option>
+					<option value="RJ">Rio de Janeiro</option>
+					<option value="SP">São Paulo</option>
+					<option value="TO">Tocatins</option>
+					</select>
+									
+				</p>
+				<p>
+					<label>Sua Mensagem</label>
+					<textarea name="msg" rows="6" cols="40">
+				    </textarea>
+				</p>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Dados da empresa</legend>
+				<p>
+					<label>Logo: </label>
+					<input name="text" type="file">
+				
+				</p>
+				<p>
+					<label>Nome:</label>
+					<input type="text" name="nome_empresa">
+				</p>
+				<P>
+					<label>CNPJ:</label>
+					<input type="text" name="cnpj">				
+				</P>
+				<p>
+					<label> Escolha algumas opções:</label>
+					<span class="input">
+					<input type="checkbox" name="oe" value="1">
+						opção 1<br>
+					<input type="checkbox" name="oe" value="2">
+						opção 2<br>
+					<input type="checkbox" name="oe" value="3">
+						opção 3<br>
+					<input type="checkbox" name="oe" value="4">
+						opção 4<br>
+					<input type="checkbox" name="oe" value="5">
+						opção 5<br>
+					<input type="checkbox" name="oe" value="6">
+						opção 6
+					
+					</span>
+					
+				</p>
+				<p>
+					<label> Sennha da empresa:</label>
+					<input name="senha" type="password">
+					
+				</p>
+				
+				</fieldset>
+			
+			<input type="submit" value="Enviar">
+		
+		</form>
+
+
+	</body>
+
+
+
+</html>

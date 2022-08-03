@@ -1,0 +1,322 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #bbbbbb;
+    padding: 10px 0;
+}
+
+.caixa {
+
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+nav {
+
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:active {
+    color: darkcyan;
+}
+
+.lista-produtos {
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.lista-produtos h2 {
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.lista-produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    border: 2px solid #000000;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.lista-produtos li:hover {
+
+    border: 4px solid red;
+    cursor: pointer;
+}
+
+.lista-produtos li:hover h2 {
+    font-size: 34px;
+}
+
+
+.lista-produtos li:active {
+
+    border: 4px solid #088c19;
+    cursor: pointer;
+}
+
+.produto-descricao {
+
+    font-size: 18px;
+}
+
+.produto-preco {
+
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+footer {
+
+    text-align: center;
+    background: url("../images/produtos/bg.jpg");
+    padding: 20px;
+}
+
+.copyright {
+
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0;
+
+}
+
+/* main{
+
+    
+
+
+} */
+
+.banner {
+
+    width: 100%;
+}
+
+.titulo-principal {
+
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: both;
+}
+
+/* .titulo-principal::first-letter {
+    font-weight: bold;
+}
+
+.titulo-principal::before {
+    content: "[";
+}
+
+.titulo-principal::after {
+    content: "]";
+} */
+
+/* p::first-line{
+    font-style: italic;
+} */
+
+
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+
+    margin: 0 0 1em;
+}
+
+.principal strong {
+
+    font-weight: bold;
+}
+
+.principal em {
+
+    font-style: italic;
+}
+
+.utensilios {
+
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa-conteudo {
+
+    width: 50%;
+    margin: 2em auto 0;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficios {
+
+    padding: 3em 0;
+    background: #888888;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.conteudo-beneficios::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.lista-beneficios {
+    width: 40%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.itens {
+
+    line-height: 1.5;
+}
+
+.itens:first-child {
+
+    font-weight: bold;
+}
+
+.itens::before {
+    content: "★";
+    margin-right: 5px;
+}
+
+.imagem-beneficio {
+    width: 60%;
+    float: right;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 1px #000000;
+}
+
+.imagem-beneficio:hover {
+    opacity: 0.9;
+}
+
+.video {
+    width: 50%;
+    margin: 2em auto 0;
+}
+
+.video iframe {
+    width: 100%;
+    height: 420px;
+    border-style: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .caixa,
+    .principal,
+    .conteudo-beneficios {
+        width: auto;
+    }
+
+    .lista-beneficios, .imagem-beneficio{
+        width: 100%;
+    }
+
+    .mapa-conteudo, .video {
+        width: 90%;
+    }
+
+    .mapa iframe{
+        height: 250px;
+    }
+
+    .video iframe {
+        height: 250px;
+    }
+
+
+    .lista-produtos{
+     
+        width: auto;
+        padding: 5%;
+    }
+
+    .lista-produtos li{
+     
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
